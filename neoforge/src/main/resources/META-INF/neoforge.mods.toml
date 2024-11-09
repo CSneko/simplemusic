@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+3issueTrackerURL = ""
+license = "GNU LGPL 3.0"
+
+[[mods]]
+modId = "simplemusic"
+version = "${version}"
+displayName = "SimpleMusic"
+authors = "CrystalNeko"
+description = '''
+简易的音乐播放器
+'''
+#logoFile = ""
+
+[[dependencies.simplemusic]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.simplemusic]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21,1.22)"
+ordering = "NONE"
+side = "BOTH"

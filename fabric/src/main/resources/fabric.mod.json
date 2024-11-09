@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "simplemusic",
+  "version": "${version}",
+  "name": "SimpleMusic",
+  "description": "简易的音乐播放器",
+  "authors": [
+    "CrystalNeko"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/simplemusic/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.cneko.simplemusic.fabric.SimpleMusicFabric"
+    ],
+    "client": [
+      "org.cneko.simplemusic.fabric.client.SimpleMusicFabricClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": ">=1.21",
+    "java": ">=21",
+    "fabric-api": "*",
+    "fabric-language-kotlin": "*"
+  }
+}

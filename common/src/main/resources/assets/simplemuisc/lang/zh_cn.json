@@ -1,0 +1,5 @@
+{
+  "command.simplemusic.play.successful": "§d要开始播放%s§d啦",
+  "command.simplemusic.play.failed": "§c哎呀，播放%s失败了呢",
+  "command.simplemusic.stop.successful": "§d成功停止音乐啦"
+}

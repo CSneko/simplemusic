@@ -1,0 +1,9 @@
+# 项目排除路径
+/.gradle/
+/build/
+/common/.gradle/
+/common/build/
+/fabric/.gradle/
+/fabric/build/
+/neoforge/.gradle/
+/neoforge/build/

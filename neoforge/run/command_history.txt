@@ -1,0 +1,3 @@
+/sm stop
+/sm
+/sm 打上花火
